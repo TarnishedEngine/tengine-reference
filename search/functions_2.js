@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7eilogsink_0',['~ILogSink',['../classtengine_1_1util_1_1logger_1_1ILogSink.html#a9de87dbf7826db0e1280da8a49616954',1,'tengine::util::logger::ILogSink']]]
+  ['filesink_0',['FileSink',['../classtengine_1_1util_1_1logger_1_1FileSink.html#ac5065306c64466c06f7aee0e60621069',1,'tengine::util::logger::FileSink']]]
 ];

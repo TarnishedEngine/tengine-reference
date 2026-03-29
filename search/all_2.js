@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fatal_0',['FATAL',['../namespacetengine_1_1util_1_1logger.html#ac1f3ef4c2fd63b16facad1016d92279fa19da7170bea36556dde582519795f3fc',1,'tengine::util::logger']]]
+  ['clearsinks_0',['clearSinks',['../classtengine_1_1util_1_1logger_1_1Logger.html#a033e6031accc27be4687a89468567e5c',1,'tengine::util::logger::Logger']]]
 ];

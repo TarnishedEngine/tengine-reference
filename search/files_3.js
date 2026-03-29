@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['read_5ffile_5ffrom_5fdata_2ecpp_0',['read_file_from_data.cpp',['../read__file__from__data_8cpp.html',1,'']]]
+  ['logger_2ehpp_0',['Logger.hpp',['../Logger_8hpp.html',1,'']]],
+  ['loglevel_2ehpp_1',['LogLevel.hpp',['../LogLevel_8hpp.html',1,'']]]
 ];

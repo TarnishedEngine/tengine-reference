@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['temp_2ecpp_0',['temp.cpp',['../temp_8cpp.html',1,'']]],
-  ['tengine_1',['tengine',['../namespacetengine.html',1,'']]],
-  ['tengine_3a_3autil_2',['util',['../namespacetengine_1_1util.html',1,'tengine']]],
-  ['tengine_3a_3autil_3a_3alogger_3',['logger',['../namespacetengine_1_1util_1_1logger.html',1,'tengine::util']]],
-  ['test_4',['test',['../basic__math__ops_8cpp.html#aa61fc1fa185adb7d90d0b1121ad7a0ce',1,'TEST(Sanity, OnePlusOneEqualsTwo):&#160;basic_math_ops.cpp'],['../basic__math__ops_8cpp.html#ab98f18d592544bd246200f7d686f623c',1,'TEST(Sanity, OnePlusOneNotEqualsThree):&#160;basic_math_ops.cpp'],['../read__file__from__data_8cpp.html#a519411162aa8bcaea96973a595a36171',1,'TEST(Sanity, ReadFileFromData):&#160;read_file_from_data.cpp']]]
+  ['ilogsink_0',['ILogSink',['../classtengine_1_1util_1_1logger_1_1ILogSink.html',1,'tengine::util::logger']]],
+  ['ilogsink_2ehpp_1',['ILogSink.hpp',['../ILogSink_8hpp.html',1,'']]],
+  ['info_2',['INFO',['../namespacetengine_1_1util_1_1logger.html#ac1f3ef4c2fd63b16facad1016d92279fa551b723eafd6a31d444fcb2f5920fbd3',1,'tengine::util::logger']]],
+  ['init_3',['init',['../classtengine_1_1util_1_1logger_1_1Logger.html#a68bc730427dc48bbda694e55304bc946',1,'tengine::util::logger::Logger']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loglevel_2ehpp_0',['LogLevel.hpp',['../LogLevel_8hpp.html',1,'']]]
+  ['ilogsink_2ehpp_0',['ILogSink.hpp',['../ILogSink_8hpp.html',1,'']]]
 ];
