@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['getinstance_0',['getInstance',['../classtengine_1_1util_1_1logger_1_1Logger.html#a75b88c8b600ef67c82afdb5661bc5b0c',1,'tengine::util::logger::Logger']]],
-  ['getlevelstring_1',['getLevelString',['../classtengine_1_1util_1_1logger_1_1FileSink.html#ac211fe37fd1b5500b79b30230f19aa05',1,'tengine::util::logger::FileSink']]],
-  ['gettimestamp_2',['getTimestamp',['../classtengine_1_1util_1_1logger_1_1FileSink.html#a99104c9c1b73662abead4691d899ac04',1,'tengine::util::logger::FileSink']]]
+  ['fatal_0',['FATAL',['../namespacetengine_1_1util_1_1logger.html#ac1f3ef4c2fd63b16facad1016d92279fa19da7170bea36556dde582519795f3fc',1,'tengine::util::logger']]],
+  ['filesink_1',['filesink',['../classtengine_1_1util_1_1logger_1_1FileSink.html',1,'tengine::util::logger::FileSink'],['../classtengine_1_1util_1_1logger_1_1FileSink.html#ac5065306c64466c06f7aee0e60621069',1,'tengine::util::logger::FileSink::FileSink()']]],
+  ['filesink_2ecpp_2',['FileSink.cpp',['../FileSink_8cpp.html',1,'']]],
+  ['filesink_2ehpp_3',['FileSink.hpp',['../FileSink_8hpp.html',1,'']]],
+  ['filesinktest_4',['FileSinkTest',['../classFileSinkTest.html',1,'']]],
+  ['filesinktest_2ecpp_5',['FileSinkTest.cpp',['../FileSinkTest_8cpp.html',1,'']]]
 ];
