@@ -17,8 +17,9 @@ var searchData=
   ['tengine_5floglevel_5ffatal_14',['TENGINE_LOGLEVEL_FATAL',['../LoggerMacros_8hpp.html#a3e35ec6e4475a0530f8687aa6f338701',1,'LoggerMacros.hpp']]],
   ['tengine_5floglevel_5finfo_15',['TENGINE_LOGLEVEL_INFO',['../LoggerMacros_8hpp.html#acc22efdd2769fd8f3637e8c318c0064a',1,'LoggerMacros.hpp']]],
   ['tengine_5floglevel_5fwarn_16',['TENGINE_LOGLEVEL_WARN',['../LoggerMacros_8hpp.html#ab5ca990c0ebe3c45003db5c9fc693a04',1,'LoggerMacros.hpp']]],
-  ['terminalsink_2ehpp_17',['TerminalSink.hpp',['../TerminalSink_8hpp.html',1,'']]],
-  ['test_18',['test',['../basic__math__ops_8cpp.html#aa61fc1fa185adb7d90d0b1121ad7a0ce',1,'TEST(Sanity, OnePlusOneEqualsTwo):&#160;basic_math_ops.cpp'],['../basic__math__ops_8cpp.html#ab98f18d592544bd246200f7d686f623c',1,'TEST(Sanity, OnePlusOneNotEqualsThree):&#160;basic_math_ops.cpp']]],
-  ['test_5ff_19',['TEST_F',['../FileSinkTest_8cpp.html#a7b7f41254d3b70c9623ff80a218789cd',1,'FileSinkTest.cpp']]],
-  ['testfilename_20',['testFileName',['../classFileSinkTest.html#ad114821fe2c26abd0853457649134fa9',1,'FileSinkTest']]]
+  ['termcolor_2ehpp_17',['termcolor.hpp',['../termcolor_8hpp.html',1,'']]],
+  ['terminalsink_2ehpp_18',['TerminalSink.hpp',['../TerminalSink_8hpp.html',1,'']]],
+  ['test_19',['test',['../basic__math__ops_8cpp.html#aa61fc1fa185adb7d90d0b1121ad7a0ce',1,'TEST(Sanity, OnePlusOneEqualsTwo):&#160;basic_math_ops.cpp'],['../basic__math__ops_8cpp.html#ab98f18d592544bd246200f7d686f623c',1,'TEST(Sanity, OnePlusOneNotEqualsThree):&#160;basic_math_ops.cpp']]],
+  ['test_5ff_20',['TEST_F',['../FileSinkTest_8cpp.html#a7b7f41254d3b70c9623ff80a218789cd',1,'FileSinkTest.cpp']]],
+  ['testfilename_21',['testFileName',['../classFileSinkTest.html#ad114821fe2c26abd0853457649134fa9',1,'FileSinkTest']]]
 ];
