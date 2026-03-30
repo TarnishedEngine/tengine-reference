@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['_7efilesink_0',['~FileSink',['../classtengine_1_1util_1_1logger_1_1FileSink.html#a9dbcde7dd229ab27051a0c2e1895d316',1,'tengine::util::logger::FileSink']]],
-  ['_7eilogsink_1',['~ILogSink',['../classtengine_1_1util_1_1logger_1_1ILogSink.html#a9de87dbf7826db0e1280da8a49616954',1,'tengine::util::logger::ILogSink']]]
+  ['teardown_0',['teardown',['../classLoggerTests.html#af7995c7e60a635ce6113fab9664f122f',1,'LoggerTests::TearDown()'],['../classFileSinkTest.html#a64fb0fe3caf76413f4a6a9fc6e635669',1,'FileSinkTest::TearDown()']]],
+  ['terminalsink_1',['TerminalSink',['../classtengine_1_1util_1_1logger_1_1TerminalSink.html#af8d9661e5a18b4d1f5027e3ba61892d5',1,'tengine::util::logger::TerminalSink']]],
+  ['test_2',['test',['../basic__math__ops_8cpp.html#aa61fc1fa185adb7d90d0b1121ad7a0ce',1,'TEST(Sanity, OnePlusOneEqualsTwo):&#160;basic_math_ops.cpp'],['../basic__math__ops_8cpp.html#ab98f18d592544bd246200f7d686f623c',1,'TEST(Sanity, OnePlusOneNotEqualsThree):&#160;basic_math_ops.cpp']]],
+  ['test_5ff_3',['test_f',['../LoggerTests_8cpp.html#a7af699bf0ca08099ed61da36e33fcbb3',1,'TEST_F(LoggerTests, LoggerDispatchesToSinks):&#160;LoggerTests.cpp'],['../LoggerTests_8cpp.html#a375dbddde3eea4a8c60ea1c6ad87cb45',1,'TEST_F(LoggerTests, MultipleSinksReceiveLogs):&#160;LoggerTests.cpp'],['../FileSinkTest_8cpp.html#a7b7f41254d3b70c9623ff80a218789cd',1,'TEST_F(FileSinkTest, WritesLogToFile):&#160;FileSinkTest.cpp']]]
 ];

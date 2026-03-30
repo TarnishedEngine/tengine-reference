@@ -1,10 +1,10 @@
 var LogLevel_8hpp =
 [
     [ "LogLevel", "LogLevel_8hpp.html#ac1f3ef4c2fd63b16facad1016d92279f", [
-      [ "DEBUG", "LogLevel_8hpp.html#ac1f3ef4c2fd63b16facad1016d92279fadc30ec20708ef7b0f641ef78b7880a15", null ],
-      [ "INFO", "LogLevel_8hpp.html#ac1f3ef4c2fd63b16facad1016d92279fa551b723eafd6a31d444fcb2f5920fbd3", null ],
-      [ "WARN", "LogLevel_8hpp.html#ac1f3ef4c2fd63b16facad1016d92279fa32bd8a1db2275458673903bdb84cb277", null ],
-      [ "ERROR", "LogLevel_8hpp.html#ac1f3ef4c2fd63b16facad1016d92279fabb1ca97ec761fc37101737ba0aa2e7c5", null ],
-      [ "FATAL", "LogLevel_8hpp.html#ac1f3ef4c2fd63b16facad1016d92279fa19da7170bea36556dde582519795f3fc", null ]
+      [ "LEVEL_DEBUG", "LogLevel_8hpp.html#ac1f3ef4c2fd63b16facad1016d92279fa895f68ab8463dcefaa0968193e50c1c8", null ],
+      [ "LEVEL_INFO", "LogLevel_8hpp.html#ac1f3ef4c2fd63b16facad1016d92279fa2e5413f0576433bcc849905b48cf3404", null ],
+      [ "LEVEL_WARN", "LogLevel_8hpp.html#ac1f3ef4c2fd63b16facad1016d92279fa0a50d292ae2854e11279f5754d29e486", null ],
+      [ "LEVEL_ERROR", "LogLevel_8hpp.html#ac1f3ef4c2fd63b16facad1016d92279fa584c2bd79384769a6d0407d70b8e2a11", null ],
+      [ "LEVEL_FATAL", "LogLevel_8hpp.html#ac1f3ef4c2fd63b16facad1016d92279faa8ac9470397fc0f6b1d5bbc2bb09acb3", null ]
     ] ]
 ];
