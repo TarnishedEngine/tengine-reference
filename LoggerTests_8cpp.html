@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('LoggerTests_8cpp.html',''); initResiza
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;<a class="el" href="FileSink_8hpp_source.html">tengine/util/logger/sinks/FileSink.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="Filter_8hpp_source.html">tengine/util/logger/Filter.hpp</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="Logger_8hpp_source.html">tengine/util/logger/Logger.hpp</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -117,10 +118,42 @@ Functions</h2></td></tr>
 <tr class="separator:a7af699bf0ca08099ed61da36e33fcbb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a375dbddde3eea4a8c60ea1c6ad87cb45" id="r_a375dbddde3eea4a8c60ea1c6ad87cb45"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="LoggerTests_8cpp.html#a375dbddde3eea4a8c60ea1c6ad87cb45">TEST_F</a> (<a class="el" href="classLoggerTests.html">LoggerTests</a>, MultipleSinksReceiveLogs)</td></tr>
 <tr class="separator:a375dbddde3eea4a8c60ea1c6ad87cb45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a635cb5f711af35a49f1c24e578aa4457" id="r_a635cb5f711af35a49f1c24e578aa4457"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="LoggerTests_8cpp.html#a635cb5f711af35a49f1c24e578aa4457">TEST_F</a> (<a class="el" href="classLoggerTests.html">LoggerTests</a>, SenderFilter)</td></tr>
+<tr class="separator:a635cb5f711af35a49f1c24e578aa4457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa789efd9b2380593bd9b87b711791ad3" id="r_aa789efd9b2380593bd9b87b711791ad3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="LoggerTests_8cpp.html#aa789efd9b2380593bd9b87b711791ad3">TEST_F</a> (<a class="el" href="classLoggerTests.html">LoggerTests</a>, LevelFilter)</td></tr>
+<tr class="separator:aa789efd9b2380593bd9b87b711791ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="aa789efd9b2380593bd9b87b711791ad3" name="aa789efd9b2380593bd9b87b711791ad3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa789efd9b2380593bd9b87b711791ad3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classLoggerTests.html">LoggerTests</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LevelFilter&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7af699bf0ca08099ed61da36e33fcbb3" name="a7af699bf0ca08099ed61da36e33fcbb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7af699bf0ca08099ed61da36e33fcbb3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7af699bf0ca08099ed61da36e33fcbb3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -148,7 +181,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a375dbddde3eea4a8c60ea1c6ad87cb45" name="a375dbddde3eea4a8c60ea1c6ad87cb45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a375dbddde3eea4a8c60ea1c6ad87cb45">&#9670;&#160;</a></span>TEST_F() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a375dbddde3eea4a8c60ea1c6ad87cb45">&#9670;&#160;</a></span>TEST_F() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,6 +196,34 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">MultipleSinksReceiveLogs&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a635cb5f711af35a49f1c24e578aa4457" name="a635cb5f711af35a49f1c24e578aa4457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a635cb5f711af35a49f1c24e578aa4457">&#9670;&#160;</a></span>TEST_F() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classLoggerTests.html">LoggerTests</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SenderFilter&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

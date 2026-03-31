@@ -106,6 +106,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtengine_1_1util_1_1logger_1_1ILogSink.html">ILogSink</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtengine_1_1util_1_1logger_1_1LogFilter.html">LogFilter</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtengine_1_1util_1_1logger_1_1Logger.html">Logger</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtengine_1_1util_1_1logger_1_1TerminalSink.html">TerminalSink</a></td></tr>
@@ -113,6 +115,16 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:a104355d75d614a2f62affa43cec4c444" id="r_a104355d75d614a2f62affa43cec4c444"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444">FilterMode</a> { <br />
+&#160;&#160;<a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444a7d1c2f4b9739b3ec9bf27f10258eda6d">FILTER_NO_FILTER</a>
+, <a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444ab718d731404a247467f7cf706273d660">FILTER_ALLOW_SENDER</a>
+, <a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444a5babca4d5a7093483ee271ae762dca06">FILTER_DISALLOW_SENDER</a>
+, <a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444abbdeda4e33840c674884233b4f468ce3">FILTER_ALLOW_LOG_LEVEL</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444a9cd10a83e6e5d38c572d7447557837aa">FILTER_DISALLOW_LOG_LEVEL</a>
+<br />
+ }</td></tr>
+<tr class="separator:a104355d75d614a2f62affa43cec4c444"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1f3ef4c2fd63b16facad1016d92279f" id="r_ac1f3ef4c2fd63b16facad1016d92279f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetengine_1_1util_1_1logger.html#ac1f3ef4c2fd63b16facad1016d92279f">LogLevel</a> { <br />
 &#160;&#160;<a class="el" href="namespacetengine_1_1util_1_1logger.html#ac1f3ef4c2fd63b16facad1016d92279fa895f68ab8463dcefaa0968193e50c1c8">LEVEL_DEBUG</a>
 , <a class="el" href="namespacetengine_1_1util_1_1logger.html#ac1f3ef4c2fd63b16facad1016d92279fa2e5413f0576433bcc849905b48cf3404">LEVEL_INFO</a>
@@ -131,9 +143,31 @@ Enumerations</h2></td></tr>
 <p>Defines an enum to indicate importance of log.</p>
 <p>Common logger utility.</p>
 <p>Defines an interface that receives log messages.</p>
+<p>Defines a set of structs that handle filtering.</p>
 <p>Implements <a class="el" href="TerminalSink_8hpp.html">TerminalSink.hpp</a>.</p>
 <dl class="section author"><dt>Author</dt><dd>DIY Labs </dd></dl>
 </div><h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a104355d75d614a2f62affa43cec4c444" name="a104355d75d614a2f62affa43cec4c444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a104355d75d614a2f62affa43cec4c444">&#9670;&#160;</a></span>FilterMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444">tengine::util::logger::FilterMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a104355d75d614a2f62affa43cec4c444a7d1c2f4b9739b3ec9bf27f10258eda6d" name="a104355d75d614a2f62affa43cec4c444a7d1c2f4b9739b3ec9bf27f10258eda6d"></a>FILTER_NO_FILTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a104355d75d614a2f62affa43cec4c444ab718d731404a247467f7cf706273d660" name="a104355d75d614a2f62affa43cec4c444ab718d731404a247467f7cf706273d660"></a>FILTER_ALLOW_SENDER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a104355d75d614a2f62affa43cec4c444a5babca4d5a7093483ee271ae762dca06" name="a104355d75d614a2f62affa43cec4c444a5babca4d5a7093483ee271ae762dca06"></a>FILTER_DISALLOW_SENDER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a104355d75d614a2f62affa43cec4c444abbdeda4e33840c674884233b4f468ce3" name="a104355d75d614a2f62affa43cec4c444abbdeda4e33840c674884233b4f468ce3"></a>FILTER_ALLOW_LOG_LEVEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a104355d75d614a2f62affa43cec4c444a9cd10a83e6e5d38c572d7447557837aa" name="a104355d75d614a2f62affa43cec4c444a9cd10a83e6e5d38c572d7447557837aa"></a>FILTER_DISALLOW_LOG_LEVEL&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="ac1f3ef4c2fd63b16facad1016d92279f" name="ac1f3ef4c2fd63b16facad1016d92279f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1f3ef4c2fd63b16facad1016d92279f">&#9670;&#160;</a></span>LogLevel</h2>
 

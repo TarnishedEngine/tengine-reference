@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Tarnished Engine: include/tengine/util/logger/Logger.hpp File Reference</title>
+<title>Tarnished Engine: include/tengine/util/logger/Filter.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('Logger_8hpp.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('Filter_8hpp.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -92,22 +92,20 @@ $(document).ready(function(){initNavTree('Logger_8hpp.html',''); initResizable()
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
-  <div class="headertitle"><div class="title">Logger.hpp File Reference</div></div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
+  <div class="headertitle"><div class="title">Filter.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;mutex&gt;</code><br />
-<code>#include &lt;<a class="el" href="ILogSink_8hpp_source.html">tengine/util/logger/ILogSink.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;<a class="el" href="LogLevel_8hpp_source.html">tengine/util/logger/LogLevel.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="Filter_8hpp_source.html">tengine/util/logger/Filter.hpp</a>&gt;</code><br />
 </div>
-<p><a href="Logger_8hpp_source.html">Go to the source code of this file.</a></p>
+<p><a href="Filter_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtengine_1_1util_1_1logger_1_1Logger.html">tengine::util::logger::Logger</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtengine_1_1util_1_1logger_1_1LogFilter.html">tengine::util::logger::LogFilter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -119,13 +117,26 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacetengine_1_1util_1_1logger" id="r_namespacetengine_1_1util_1_1logger"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetengine_1_1util_1_1logger.html">tengine::util::logger</a></td></tr>
 <tr class="memdesc:namespacetengine_1_1util_1_1logger"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements <a class="el" href="FileSink_8hpp.html">FileSink.hpp</a>. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a104355d75d614a2f62affa43cec4c444" id="r_a104355d75d614a2f62affa43cec4c444"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444">tengine::util::logger::FilterMode</a> { <br />
+&#160;&#160;<a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444a7d1c2f4b9739b3ec9bf27f10258eda6d">tengine::util::logger::FILTER_NO_FILTER</a>
+, <a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444ab718d731404a247467f7cf706273d660">tengine::util::logger::FILTER_ALLOW_SENDER</a>
+, <a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444a5babca4d5a7093483ee271ae762dca06">tengine::util::logger::FILTER_DISALLOW_SENDER</a>
+, <a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444abbdeda4e33840c674884233b4f468ce3">tengine::util::logger::FILTER_ALLOW_LOG_LEVEL</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444a9cd10a83e6e5d38c572d7447557837aa">tengine::util::logger::FILTER_DISALLOW_LOG_LEVEL</a>
+<br />
+ }</td></tr>
+<tr class="separator:a104355d75d614a2f62affa43cec4c444"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a5ddabb5b010712ed21642cd307f341.html">tengine</a></li><li class="navelem"><a class="el" href="dir_7fcdf44163002d734e36bd62a0ee634d.html">util</a></li><li class="navelem"><a class="el" href="dir_4d148c2164f0418a545e9bbe3f162086.html">logger</a></li><li class="navelem"><a class="el" href="Logger_8hpp.html">Logger.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a5ddabb5b010712ed21642cd307f341.html">tengine</a></li><li class="navelem"><a class="el" href="dir_7fcdf44163002d734e36bd62a0ee634d.html">util</a></li><li class="navelem"><a class="el" href="dir_4d148c2164f0418a545e9bbe3f162086.html">logger</a></li><li class="navelem"><a class="el" href="Filter_8hpp.html">Filter.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

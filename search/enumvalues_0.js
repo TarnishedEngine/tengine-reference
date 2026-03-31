@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['level_5fdebug_0',['LEVEL_DEBUG',['../namespacetengine_1_1util_1_1logger.html#ac1f3ef4c2fd63b16facad1016d92279fa895f68ab8463dcefaa0968193e50c1c8',1,'tengine::util::logger']]],
-  ['level_5ferror_1',['LEVEL_ERROR',['../namespacetengine_1_1util_1_1logger.html#ac1f3ef4c2fd63b16facad1016d92279fa584c2bd79384769a6d0407d70b8e2a11',1,'tengine::util::logger']]],
-  ['level_5ffatal_2',['LEVEL_FATAL',['../namespacetengine_1_1util_1_1logger.html#ac1f3ef4c2fd63b16facad1016d92279faa8ac9470397fc0f6b1d5bbc2bb09acb3',1,'tengine::util::logger']]],
-  ['level_5finfo_3',['LEVEL_INFO',['../namespacetengine_1_1util_1_1logger.html#ac1f3ef4c2fd63b16facad1016d92279fa2e5413f0576433bcc849905b48cf3404',1,'tengine::util::logger']]],
-  ['level_5fwarn_4',['LEVEL_WARN',['../namespacetengine_1_1util_1_1logger.html#ac1f3ef4c2fd63b16facad1016d92279fa0a50d292ae2854e11279f5754d29e486',1,'tengine::util::logger']]]
+  ['filter_5fallow_5flog_5flevel_0',['FILTER_ALLOW_LOG_LEVEL',['../namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444abbdeda4e33840c674884233b4f468ce3',1,'tengine::util::logger']]],
+  ['filter_5fallow_5fsender_1',['FILTER_ALLOW_SENDER',['../namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444ab718d731404a247467f7cf706273d660',1,'tengine::util::logger']]],
+  ['filter_5fdisallow_5flog_5flevel_2',['FILTER_DISALLOW_LOG_LEVEL',['../namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444a9cd10a83e6e5d38c572d7447557837aa',1,'tengine::util::logger']]],
+  ['filter_5fdisallow_5fsender_3',['FILTER_DISALLOW_SENDER',['../namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444a5babca4d5a7093483ee271ae762dca06',1,'tengine::util::logger']]],
+  ['filter_5fno_5ffilter_4',['FILTER_NO_FILTER',['../namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444a7d1c2f4b9739b3ec9bf27f10258eda6d',1,'tengine::util::logger']]]
 ];
