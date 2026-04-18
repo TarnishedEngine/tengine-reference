@@ -110,6 +110,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aac832292309f215c0193db3d835f27c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa912cbcaaf53e6754b149bc5a0b87d89" id="r_aa912cbcaaf53e6754b149bc5a0b87d89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtengine_1_1util_1_1logger_1_1Logger.html#aa912cbcaaf53e6754b149bc5a0b87d89">addSink</a> (const std::shared_ptr&lt; <a class="el" href="classtengine_1_1util_1_1logger_1_1ILogSink.html">tengine::util::logger::ILogSink</a> &gt; sink, const <a class="el" href="structtengine_1_1util_1_1logger_1_1LogFilter.html">tengine::util::logger::LogFilter</a> filter)</td></tr>
 <tr class="separator:aa912cbcaaf53e6754b149bc5a0b87d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2e2945f5164112d0d8fcf5b56250efb" id="r_ae2e2945f5164112d0d8fcf5b56250efb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtengine_1_1util_1_1logger_1_1Logger.html#ae2e2945f5164112d0d8fcf5b56250efb">addSink</a> (const std::shared_ptr&lt; <a class="el" href="classtengine_1_1util_1_1logger_1_1ILogSink.html">tengine::util::logger::ILogSink</a> &gt; sink)</td></tr>
+<tr class="separator:ae2e2945f5164112d0d8fcf5b56250efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e5c207ec4167b7dacb1533d7133deec" id="r_a2e5c207ec4167b7dacb1533d7133deec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtengine_1_1util_1_1logger_1_1Logger.html#a2e5c207ec4167b7dacb1533d7133deec">clearSinks</a> ()</td></tr>
 <tr class="separator:a2e5c207ec4167b7dacb1533d7133deec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d39aee5e5b77738e7cec6814fb93dc8" id="r_a2d39aee5e5b77738e7cec6814fb93dc8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtengine_1_1util_1_1logger_1_1Logger.html#a2d39aee5e5b77738e7cec6814fb93dc8">Logger</a> (const <a class="el" href="classtengine_1_1util_1_1logger_1_1Logger.html">Logger</a> &amp;)=delete</td></tr>
@@ -147,6 +149,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:af6b10ea7998674226a6ffc808a0bbabb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b3a6c12c2ab1d69f91c8dce02f6fc8f" id="r_a4b3a6c12c2ab1d69f91c8dce02f6fc8f"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtengine_1_1util_1_1logger_1_1Logger.html#a4b3a6c12c2ab1d69f91c8dce02f6fc8f">m_mutex</a></td></tr>
 <tr class="separator:a4b3a6c12c2ab1d69f91c8dce02f6fc8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada3fbbe99a53717e0fd9935d900001ef" id="r_ada3fbbe99a53717e0fd9935d900001ef"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structtengine_1_1util_1_1logger_1_1LogFilter.html">tengine::util::logger::LogFilter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtengine_1_1util_1_1logger_1_1Logger.html#ada3fbbe99a53717e0fd9935d900001ef">m_defaultFilter</a> = {<a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444a7d1c2f4b9739b3ec9bf27f10258eda6d">FILTER_NO_FILTER</a>}</td></tr>
+<tr class="separator:ada3fbbe99a53717e0fd9935d900001ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2d39aee5e5b77738e7cec6814fb93dc8" name="a2d39aee5e5b77738e7cec6814fb93dc8"></a>
@@ -227,8 +231,26 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae2e2945f5164112d0d8fcf5b56250efb" name="ae2e2945f5164112d0d8fcf5b56250efb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2e2945f5164112d0d8fcf5b56250efb">&#9670;&#160;</a></span>addSink() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tengine::util::logger::Logger::addSink </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classtengine_1_1util_1_1logger_1_1ILogSink.html">tengine::util::logger::ILogSink</a> &gt;&#160;</td>
+          <td class="paramname"><em>sink</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa912cbcaaf53e6754b149bc5a0b87d89" name="aa912cbcaaf53e6754b149bc5a0b87d89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa912cbcaaf53e6754b149bc5a0b87d89">&#9670;&#160;</a></span>addSink()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa912cbcaaf53e6754b149bc5a0b87d89">&#9670;&#160;</a></span>addSink() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -515,6 +537,28 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ada3fbbe99a53717e0fd9935d900001ef" name="ada3fbbe99a53717e0fd9935d900001ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada3fbbe99a53717e0fd9935d900001ef">&#9670;&#160;</a></span>m_defaultFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structtengine_1_1util_1_1logger_1_1LogFilter.html">tengine::util::logger::LogFilter</a> tengine::util::logger::Logger::m_defaultFilter = {<a class="el" href="namespacetengine_1_1util_1_1logger.html#a104355d75d614a2f62affa43cec4c444a7d1c2f4b9739b3ec9bf27f10258eda6d">FILTER_NO_FILTER</a>}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab8babb62935375f31d5cb7c66121e26f" name="ab8babb62935375f31d5cb7c66121e26f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab8babb62935375f31d5cb7c66121e26f">&#9670;&#160;</a></span>m_internalSink</h2>
 
