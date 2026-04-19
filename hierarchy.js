@@ -2,6 +2,7 @@ var hierarchy =
 [
     [ "CapturedLog", "structCapturedLog.html", null ],
     [ "tengine::util::cfg::CFGNode", "structtengine_1_1util_1_1cfg_1_1CFGNode.html", null ],
+    [ "tengine::util::cfg::CFGParser", "classtengine_1_1util_1_1cfg_1_1CFGParser.html", null ],
     [ "tengine::util::logger::ILogSink", "classtengine_1_1util_1_1logger_1_1ILogSink.html", [
       [ "DummySink", "classDummySink.html", null ],
       [ "tengine::util::logger::FileSink", "classtengine_1_1util_1_1logger_1_1FileSink.html", null ],

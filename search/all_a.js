@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['operator_3d_0',['operator=',['../classtengine_1_1util_1_1logger_1_1Logger.html#af7bea749c266364025e0d49597513aaf',1,'tengine::util::logger::Logger::operator=(const Logger &amp;)=delete'],['../classtengine_1_1util_1_1logger_1_1Logger.html#ae9e663121e13c7c9c7ea37d0ff927b16',1,'tengine::util::logger::Logger::operator=(Logger &amp;&amp;)=delete']]]
+  ['nodename_0',['nodeName',['../structtengine_1_1util_1_1cfg_1_1CFGNode.html#a72c069a01fc142af66cfe041e0d6f78a',1,'tengine::util::cfg::CFGNode']]],
+  ['nodes_1',['nodes',['../ParserTests_8cpp.html#aa9e4b909109a76d10ff067372add5862',1,'ParserTests.cpp']]]
 ];
