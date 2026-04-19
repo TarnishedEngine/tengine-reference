@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['teardown_0',['teardown',['../classLoggerTests.html#af7995c7e60a635ce6113fab9664f122f',1,'LoggerTests::TearDown()'],['../classFileSinkTest.html#a64fb0fe3caf76413f4a6a9fc6e635669',1,'FileSinkTest::TearDown()']]],
-  ['terminalsink_1',['TerminalSink',['../classtengine_1_1util_1_1logger_1_1TerminalSink.html#af8d9661e5a18b4d1f5027e3ba61892d5',1,'tengine::util::logger::TerminalSink']]],
-  ['test_2',['test',['../basic__math__ops_8cpp.html#aa61fc1fa185adb7d90d0b1121ad7a0ce',1,'TEST(Sanity, OnePlusOneEqualsTwo):&#160;basic_math_ops.cpp'],['../basic__math__ops_8cpp.html#ab98f18d592544bd246200f7d686f623c',1,'TEST(Sanity, OnePlusOneNotEqualsThree):&#160;basic_math_ops.cpp']]],
-  ['test_5ff_3',['test_f',['../LoggerTests_8cpp.html#a7af699bf0ca08099ed61da36e33fcbb3',1,'TEST_F(LoggerTests, LoggerDispatchesToSinks):&#160;LoggerTests.cpp'],['../LoggerTests_8cpp.html#ae9dc370e2ac34b6f0a00bcc08b3cd725',1,'TEST_F(LoggerTests, LoggerDispatchesToSinkWithDefaultFilter):&#160;LoggerTests.cpp'],['../LoggerTests_8cpp.html#a375dbddde3eea4a8c60ea1c6ad87cb45',1,'TEST_F(LoggerTests, MultipleSinksReceiveLogs):&#160;LoggerTests.cpp'],['../LoggerTests_8cpp.html#a635cb5f711af35a49f1c24e578aa4457',1,'TEST_F(LoggerTests, SenderFilter):&#160;LoggerTests.cpp'],['../LoggerTests_8cpp.html#aa789efd9b2380593bd9b87b711791ad3',1,'TEST_F(LoggerTests, LevelFilter):&#160;LoggerTests.cpp'],['../FileSinkTest_8cpp.html#a7b7f41254d3b70c9623ff80a218789cd',1,'TEST_F(FileSinkTest, WritesLogToFile):&#160;FileSinkTest.cpp']]]
+  ['setup_0',['SetUp',['../classLoggerTests.html#ad6cbbc8a5d3d6b60bac72be26ea69b6f',1,'LoggerTests']]]
 ];

@@ -57,7 +57,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"CFGNode_8hpp.html"
+"CFGNodeTests_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
