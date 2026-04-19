@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['terminalsink_0',['TerminalSink',['../classtengine_1_1util_1_1logger_1_1TerminalSink.html',1,'tengine::util::logger']]]
+  ['generic_5fcontext_0',['generic_context',['../classgeneric__context.html',1,'']]],
+  ['group_5fdigits_5fview_1',['group_digits_view',['../structgroup__digits__view.html',1,'']]]
 ];
