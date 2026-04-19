@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['sender_0',['sender',['../structCapturedLog.html#a404a81e2990143abb941556595e93a4b',1,'CapturedLog']]],
-  ['senderlist_1',['senderList',['../structtengine_1_1util_1_1logger_1_1LogFilter.html#a6908bb71be32c276dc83782e5ffe7533',1,'tengine::util::logger::LogFilter']]]
+  ['nodename_0',['nodeName',['../structtengine_1_1util_1_1cfg_1_1CFGNode.html#a72c069a01fc142af66cfe041e0d6f78a',1,'tengine::util::cfg::CFGNode']]]
 ];
