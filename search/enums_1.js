@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dragon_0',['dragon',['../namespacedetail.html#a3aece1206795dfb0aecd0df1a2ccf1d5',1,'detail']]]
+  ['loglevel_0',['LogLevel',['../namespacetengine_1_1util_1_1logger.html#ac1f3ef4c2fd63b16facad1016d92279f',1,'tengine::util::logger']]]
 ];

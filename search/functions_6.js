@@ -1,23 +1,4 @@
 var searchData=
 [
-  ['generic_5fcontext_0',['generic_context',['../classgeneric__context.html#a921ebd771d87292f0fb68167d26c6c75',1,'generic_context::generic_context(generic_context &amp;&amp;)=default'],['../classgeneric__context.html#a0bf5c782952ae5184586a90c251c0b04',1,'generic_context::generic_context(const generic_context &amp;)=delete'],['../classgeneric__context.html#a547c8ed07af608bfaa1a932817308efe',1,'generic_context::generic_context(OutputIt out, basic_format_args&lt; generic_context &gt; args, locale_ref loc={})']]],
-  ['get_1',['get',['../classlocale__ref.html#a9e8901f320b201e831a07a87ddc04302',1,'locale_ref::get()'],['../classbasic__format__args.html#a3339d3a4e4daaf7bb0de1a8084e7f086',1,'basic_format_args::get(int id) const -&gt; format_arg'],['../classbasic__format__args.html#abb2e1c3f297bf50f1bd260133495a024',1,'basic_format_args::get(basic_string_view&lt; Char &gt; name) const -&gt; format_arg'],['../structfstring.html#a0a24d9b64b47a673ef890d2ea563d641',1,'fstring::get()']]],
-  ['get_5fallocator_2',['get_allocator',['../classbasic__memory__buffer.html#a53ee4a2efbf408c0c6f813d50ea8151a',1,'basic_memory_buffer']]],
-  ['get_5fbigit_3',['get_bigit',['../classdetail_1_1bigint.html#a6d1b6a8355decf4dcfd281ea13dff435',1,'detail::bigint']]],
-  ['get_5fbuffer_4',['get_buffer',['../namespacedetail.html#ad803bb19df422bc4c4f92d75c7564437',1,'detail']]],
-  ['get_5fcached_5fpower_5',['get_cached_power',['../namespacedetail_1_1dragonbox.html#af068b86ad80aba413bf748f312dc64f0',1,'detail::dragonbox']]],
-  ['get_5fcontainer_6',['get_container',['../namespacedetail.html#a846183da480da3e9357faeb11432b5ca',1,'detail']]],
-  ['get_5fid_7',['get_id',['../classbasic__format__args.html#a46c50be7d2d5cb389f25404bb0b030ee',1,'basic_format_args']]],
-  ['get_5fiterator_8',['get_iterator',['../namespacedetail.html#a82b03ec591edbe5774846b0899ba7210',1,'detail::get_iterator(buffer&lt; T &gt; &amp;, OutputIt out) -&gt; OutputIt'],['../namespacedetail.html#a05e3e231207d3f28f83261c2e7ad2fe5',1,'detail::get_iterator(Buf &amp;buf, OutputIt) -&gt; decltype(buf.out())']]],
-  ['get_5fsignificand_5fsize_9',['get_significand_size',['../namespacedetail.html#ad7f6750e78692ba86df25a1702111a07',1,'detail::get_significand_size(const dragonbox::decimal_fp&lt; T &gt; &amp;f) -&gt; int'],['../namespacedetail.html#aac4ee5636b279ef4fdfc2b1536ca1c33',1,'detail::get_significand_size(const big_decimal_fp &amp;f) -&gt; int']]],
-  ['getboolean_10',['getBoolean',['../structtengine_1_1util_1_1cfg_1_1CFGNode.html#a148fb4a1dc36aa160f91e33c727ddc1b',1,'tengine::util::cfg::CFGNode']]],
-  ['getfloat_11',['getFloat',['../structtengine_1_1util_1_1cfg_1_1CFGNode.html#aec8ec8fb1676489d7e90841b2f887722',1,'tengine::util::cfg::CFGNode']]],
-  ['getinstance_12',['getInstance',['../classtengine_1_1util_1_1logger_1_1Logger.html#a75b88c8b600ef67c82afdb5661bc5b0c',1,'tengine::util::logger::Logger']]],
-  ['getinteger_13',['getInteger',['../structtengine_1_1util_1_1cfg_1_1CFGNode.html#aee0ebfe6eb5c93041e49bfb41c35bb10',1,'tengine::util::cfg::CFGNode']]],
-  ['getlevelstring_14',['getlevelstring',['../classtengine_1_1util_1_1logger_1_1FileSink.html#ac211fe37fd1b5500b79b30230f19aa05',1,'tengine::util::logger::FileSink::getLevelString()'],['../classtengine_1_1util_1_1logger_1_1TerminalSink.html#a28aa57792b18df73c797bb2ae665dd05',1,'tengine::util::logger::TerminalSink::getLevelString()']]],
-  ['getsign_15',['getsign',['../namespacedetail.html#aa13bce79ab2bbd5cba0eb348eef61d65',1,'detail']]],
-  ['getstringvalue_16',['getStringValue',['../structtengine_1_1util_1_1cfg_1_1CFGNode.html#a918a95c338ccad27fe9d66559060f6c9',1,'tengine::util::cfg::CFGNode']]],
-  ['gettimestamp_17',['getTimestamp',['../classtengine_1_1util_1_1logger_1_1FileSink.html#a99104c9c1b73662abead4691d899ac04',1,'tengine::util::logger::FileSink']]],
-  ['group_5fdigits_18',['group_digits',['../format_8h.html#ac1418b789ee5db3b2aa0c9054a86e017',1,'format.h']]],
-  ['grow_19',['grow',['../classbasic__memory__buffer.html#a97d9a0a0f9827c9277e2eea97fa0309b',1,'basic_memory_buffer::grow()'],['../classdetail_1_1counting__buffer.html#a670db06293f85dbf8f6c99bab65b6f15',1,'detail::counting_buffer::grow()'],['../classdetail_1_1container__buffer.html#a0364143a92d65be2c676679ec03d6e88',1,'detail::container_buffer::grow()'],['../classdetail_1_1iterator__buffer_3_01T_01_5_00_01T_00_01fixed__buffer__traits_01_4.html#aeac7d9ae91762c124bc323e369d1d106',1,'detail::iterator_buffer&lt; T *, T, fixed_buffer_traits &gt;::grow()'],['../classdetail_1_1iterator__buffer.html#a3f88dc41440381c28345a3562d2ad9ad',1,'detail::iterator_buffer::grow()']]]
+  ['operator_3d_0',['operator=',['../classtengine_1_1util_1_1logger_1_1Logger.html#af7bea749c266364025e0d49597513aaf',1,'tengine::util::logger::Logger::operator=(const Logger &amp;)=delete'],['../classtengine_1_1util_1_1logger_1_1Logger.html#ae9e663121e13c7c9c7ea37d0ff927b16',1,'tengine::util::logger::Logger::operator=(Logger &amp;&amp;)=delete']]]
 ];
