@@ -1,5 +1,6 @@
 var dir_615dfc66cda53b83f0a7c33beb75a6e5 =
 [
     [ "CFGNode.hpp", "CFGNode_8hpp.html", "CFGNode_8hpp" ],
-    [ "Parser.hpp", "Parser_8hpp.html", "Parser_8hpp" ]
+    [ "Parser.hpp", "Parser_8hpp.html", "Parser_8hpp" ],
+    [ "Serializer.hpp", "Serializer_8hpp.html", "Serializer_8hpp" ]
 ];

@@ -59,7 +59,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "CFGNodeTests_8cpp.html",
-"structtengine_1_1util_1_1logger_1_1LogFilter.html"
+"structtengine_1_1util_1_1cfg_1_1CFGNode.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

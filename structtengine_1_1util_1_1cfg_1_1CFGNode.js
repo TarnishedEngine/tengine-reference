@@ -6,5 +6,6 @@ var structtengine_1_1util_1_1cfg_1_1CFGNode =
     [ "getStringValue", "structtengine_1_1util_1_1cfg_1_1CFGNode.html#a918a95c338ccad27fe9d66559060f6c9", null ],
     [ "children", "structtengine_1_1util_1_1cfg_1_1CFGNode.html#a739301222c9cd33704d002bb5529fb44", null ],
     [ "nodeName", "structtengine_1_1util_1_1cfg_1_1CFGNode.html#a72c069a01fc142af66cfe041e0d6f78a", null ],
+    [ "nodes", "structtengine_1_1util_1_1cfg_1_1CFGNode.html#ae0f07c3ee2fc1b89ffabde5cfbd26c08", null ],
     [ "values", "structtengine_1_1util_1_1cfg_1_1CFGNode.html#a726840502bdfea6933910e4cf0025488", null ]
 ];
