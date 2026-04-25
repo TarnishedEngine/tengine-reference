@@ -1,6 +1,7 @@
 var structtengine_1_1util_1_1cfg_1_1CFGNode =
 [
     [ "getBoolean", "structtengine_1_1util_1_1cfg_1_1CFGNode.html#a148fb4a1dc36aa160f91e33c727ddc1b", null ],
+    [ "getChildren", "structtengine_1_1util_1_1cfg_1_1CFGNode.html#a5e02629c87b35c0824d01a95953ba56d", null ],
     [ "getFloat", "structtengine_1_1util_1_1cfg_1_1CFGNode.html#a5c914a0caa187b4db0c11fc91f118d9a", null ],
     [ "getInteger", "structtengine_1_1util_1_1cfg_1_1CFGNode.html#aee0ebfe6eb5c93041e49bfb41c35bb10", null ],
     [ "getStringValue", "structtengine_1_1util_1_1cfg_1_1CFGNode.html#a918a95c338ccad27fe9d66559060f6c9", null ],

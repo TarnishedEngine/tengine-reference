@@ -195,10 +195,24 @@ $(document).ready(function(){initNavTree('CFGNode_8hpp_source.html',''); initRes
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  }</div>
 </div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>};</div>
-</div>
+<div class="foldopen" id="foldopen00097" data-start="{" data-end="}">
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="structtengine_1_1util_1_1cfg_1_1CFGNode.html#a5e02629c87b35c0824d01a95953ba56d">   97</a></span>  std::vector&lt;CFGNode&gt; <a class="code hl_function" href="structtengine_1_1util_1_1cfg_1_1CFGNode.html#a5e02629c87b35c0824d01a95953ba56d">getChildren</a>(<span class="keyword">const</span> std::string&amp; key){</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>}</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    std::vector&lt;CFGNode&gt; <a class="code hl_variable" href="structtengine_1_1util_1_1cfg_1_1CFGNode.html#ae0f07c3ee2fc1b89ffabde5cfbd26c08">nodes</a>;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordflow">for</span>(<span class="keyword">auto</span> child : <a class="code hl_variable" href="structtengine_1_1util_1_1cfg_1_1CFGNode.html#a739301222c9cd33704d002bb5529fb44">children</a>){</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>      <span class="keywordflow">if</span>(child.nodeName == key) <a class="code hl_variable" href="structtengine_1_1util_1_1cfg_1_1CFGNode.html#ae0f07c3ee2fc1b89ffabde5cfbd26c08">nodes</a>.push_back(child);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    }</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="structtengine_1_1util_1_1cfg_1_1CFGNode.html#ae0f07c3ee2fc1b89ffabde5cfbd26c08">nodes</a>;</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  }</div>
+</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>};</div>
+</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>}</div>
 <div class="ttc" id="aLoggerMacros_8hpp_html"><div class="ttname"><a href="LoggerMacros_8hpp.html">LoggerMacros.hpp</a></div></div>
 <div class="ttc" id="aLoggerMacros_8hpp_html_ac6247a923cb150bba764068e7976616e"><div class="ttname"><a href="LoggerMacros_8hpp.html#ac6247a923cb150bba764068e7976616e">TENGINE_LOG_ERROR</a></div><div class="ttdeci">#define TENGINE_LOG_ERROR(sender, msg)</div><div class="ttdef"><b>Definition</b> LoggerMacros.hpp:17</div></div>
 <div class="ttc" id="aLoggerMacros_8hpp_html_ac848a164654eb9c2b70a86de16ebb29f"><div class="ttname"><a href="LoggerMacros_8hpp.html#ac848a164654eb9c2b70a86de16ebb29f">TENGINE_LOG_WARN</a></div><div class="ttdeci">#define TENGINE_LOG_WARN(sender, msg)</div><div class="ttdef"><b>Definition</b> LoggerMacros.hpp:16</div></div>
@@ -207,6 +221,7 @@ $(document).ready(function(){initNavTree('CFGNode_8hpp_source.html',''); initRes
 <div class="ttc" id="astructtengine_1_1util_1_1cfg_1_1CFGNode_html"><div class="ttname"><a href="structtengine_1_1util_1_1cfg_1_1CFGNode.html">tengine::util::cfg::CFGNode</a></div><div class="ttdef"><b>Definition</b> CFGNode.hpp:20</div></div>
 <div class="ttc" id="astructtengine_1_1util_1_1cfg_1_1CFGNode_html_a148fb4a1dc36aa160f91e33c727ddc1b"><div class="ttname"><a href="structtengine_1_1util_1_1cfg_1_1CFGNode.html#a148fb4a1dc36aa160f91e33c727ddc1b">tengine::util::cfg::CFGNode::getBoolean</a></div><div class="ttdeci">bool getBoolean(const std::string &amp;key, bool fallback=false)</div><div class="ttdef"><b>Definition</b> CFGNode.hpp:83</div></div>
 <div class="ttc" id="astructtengine_1_1util_1_1cfg_1_1CFGNode_html_a5c914a0caa187b4db0c11fc91f118d9a"><div class="ttname"><a href="structtengine_1_1util_1_1cfg_1_1CFGNode.html#a5c914a0caa187b4db0c11fc91f118d9a">tengine::util::cfg::CFGNode::getFloat</a></div><div class="ttdeci">long double getFloat(const std::string &amp;key, long double fallback=0.0l)</div><div class="ttdef"><b>Definition</b> CFGNode.hpp:63</div></div>
+<div class="ttc" id="astructtengine_1_1util_1_1cfg_1_1CFGNode_html_a5e02629c87b35c0824d01a95953ba56d"><div class="ttname"><a href="structtengine_1_1util_1_1cfg_1_1CFGNode.html#a5e02629c87b35c0824d01a95953ba56d">tengine::util::cfg::CFGNode::getChildren</a></div><div class="ttdeci">std::vector&lt; CFGNode &gt; getChildren(const std::string &amp;key)</div><div class="ttdef"><b>Definition</b> CFGNode.hpp:97</div></div>
 <div class="ttc" id="astructtengine_1_1util_1_1cfg_1_1CFGNode_html_a726840502bdfea6933910e4cf0025488"><div class="ttname"><a href="structtengine_1_1util_1_1cfg_1_1CFGNode.html#a726840502bdfea6933910e4cf0025488">tengine::util::cfg::CFGNode::values</a></div><div class="ttdeci">std::map&lt; std::string, std::string &gt; values</div><div class="ttdef"><b>Definition</b> CFGNode.hpp:24</div></div>
 <div class="ttc" id="astructtengine_1_1util_1_1cfg_1_1CFGNode_html_a72c069a01fc142af66cfe041e0d6f78a"><div class="ttname"><a href="structtengine_1_1util_1_1cfg_1_1CFGNode.html#a72c069a01fc142af66cfe041e0d6f78a">tengine::util::cfg::CFGNode::nodeName</a></div><div class="ttdeci">std::string nodeName</div><div class="ttdef"><b>Definition</b> CFGNode.hpp:22</div></div>
 <div class="ttc" id="astructtengine_1_1util_1_1cfg_1_1CFGNode_html_a739301222c9cd33704d002bb5529fb44"><div class="ttname"><a href="structtengine_1_1util_1_1cfg_1_1CFGNode.html#a739301222c9cd33704d002bb5529fb44">tengine::util::cfg::CFGNode::children</a></div><div class="ttdeci">std::vector&lt; CFGNode &gt; children</div><div class="ttdef"><b>Definition</b> CFGNode.hpp:23</div></div>
